@@ -7,4 +7,4 @@
 ## python依赖包
 ``` pip3 install prompt_toolkit
     pip3 install threadpool
-    pip3 install psutil ```
+    pip3 install psutil 
