@@ -18,4 +18,6 @@
 ## python依赖包
     pip3 install prompt_toolkit
     pip3 install threadpool 
-    pip3 install psutil 
+    pip3 install psutil 
+## 运行程序
+    python3 geekcloud-shell/run.py
