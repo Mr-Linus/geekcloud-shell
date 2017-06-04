@@ -1,10 +1,17 @@
 import libs
-print("-----欢迎使用极云监控系统-----")
-print("常用命令:"+'\n'+"  cpu、disk、memory、ip")
-print("使用exit命令退出系统!")
+from prompt_toolkit import prompt
+from prompt_toolkit.history import FileHistory
+from prompt_toolkit.auto_suggest import AutoSuggestFromHistory
+from prompt_toolkit.contrib.completers import WordCompleter
+print("""-----欢迎使用极云监控系统-----
+ 常用命令:
+ cpu、disk、memory、ip
+ 使用exit命令退出系统!""")
+Completer = WordCompleter(['cpu', 'disk', 'scan', 'ip', 'memory', 'time'],
+                             ignore_case=True)
 while (1) :
   try:
-   getinput = input('GeekCloud:>')
+   getinput = prompt('GeekCloud:>',history=FileHistory('history.txt'),auto_suggest=AutoSuggestFromHistory(),completer=Completer,)
    if(str(getinput) == "exit" or str(getinput)== '^C' ): 
       print("退出系统!")
       break
