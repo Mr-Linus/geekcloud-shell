@@ -7,7 +7,7 @@ print("""-----欢迎使用极云监控系统-----
  常用命令:
  cpu、disk、memory、ip
  使用exit命令退出系统!""")
-Completer = WordCompleter(['cpu', 'disk', 'scan', 'ip', 'memory', 'time'],
+Completer = WordCompleter(['cpu', 'disk', 'scan', 'ip', 'memory', 'times','exit','install','run'],
                              ignore_case=True)
 while (1) :
   try:
