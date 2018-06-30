@@ -1,7 +1,5 @@
 # 极云终端 
 
-项目已移至  https://github.com/StarWars-Team/geekcloud-shell.git
-
 基于Python3开发的终端系统
 目前支持的命令:
 ```shell 
