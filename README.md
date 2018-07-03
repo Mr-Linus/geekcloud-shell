@@ -17,8 +17,12 @@
 ## 更新 V0.1
 支持历史记录,支持自动补全
 ## python依赖包
-    pip3 install prompt_toolkit
-    pip3 install threadpool 
-    pip3 install psutil 
+```shell
+    pip install prompt_toolkit
+    pip install threadpool 
+    pip install psutil 
+```
 ## 运行程序
-    python3 ./terminal-py/run.py
+```shell
+    python ./terminal-py/run.py
+```
