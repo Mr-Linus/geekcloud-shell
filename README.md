@@ -21,4 +21,4 @@
     pip3 install threadpool 
     pip3 install psutil 
 ## 运行程序
-    python3 geekcloud-shell/run.py
+    python3 ./terminal-py/run.py
